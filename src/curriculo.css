@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+    display: flex;
+    justify-content: start;
+}
+
+a{
+    font-size: 25px;
+}
+
+
+.pinguim {
+    position: fixed;
+    bottom: 20px;
+    right: -200px;
+    width: 600px; /* Defina o tamanho desejado para o ícone */
+    height: auto; /* Permite a proporção correta da imagem */
+    z-index: 9999; /* Certifique-se de que o ícone esteja acima de outros elementos na página */
+}
