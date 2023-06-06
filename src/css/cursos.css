@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #36BFB1, #038C73);
+    background: url(../imagens/background.png) center center no-repeat fixed;
+    background-size: cover;
 }
 
 main{
@@ -18,7 +19,8 @@ main{
 }
 
 h1 {
-    color: #0D0D0D;
+    color: white;
+    text-decoration: underline;
     text-align: center;
     text-shadow: 1px 1px 2px rgb(13, 13, 13, 0.726);
 }
@@ -40,9 +42,9 @@ p{
 
 .pinguim {
     position: fixed;
-    bottom: -40px;
+    bottom: -70px;
     right: -200px;
-    width: 600px; 
+    width: 500px; 
     height: auto; 
     z-index: 9999; 
 }
