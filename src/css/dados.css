@@ -30,6 +30,7 @@ a{
     font-size: 25px;
 }
 
+
 .marcelo{
     height: 200px; 
     width: 200px;
@@ -44,9 +45,9 @@ a{
 
 .pinguim {
     position: fixed;
-    bottom: 20px;
+    bottom: -70px;
     right: -200px;
-    width: 600px; 
+    width: 500px; 
     height: auto; 
     z-index: 9999; 
 }

@@ -27,6 +27,7 @@ header{
 }
 
 header h1{
+    display: inline;
     text-decoration: underline;
     font-family: 'Antonio Sans', sans-serif;
     
@@ -42,8 +43,8 @@ nav a{
     font-size: 25px;
 }
 
-h3{
-    display: flex;
+.paragrafoMenu{
+    display: inline;
     flex-direction: column;
     justify-content: start;
     font-family: 'Open Sans', sans-serif;
@@ -66,9 +67,10 @@ div:hover{
 }
 
 .tituloMain{
-    position: static;
-    margin: 50px 50px 50px 750px;
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
 }
 
 main a{
