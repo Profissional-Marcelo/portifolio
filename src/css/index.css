@@ -18,8 +18,10 @@ body{
     background-size: cover;
 }
 
+
 header{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
     color: white;
     font-family: 'Open Sans m', sans-serif;
     font-weight: 400;
@@ -43,6 +45,11 @@ nav a{
     font-size: 25px;
 }
 
+.titulo{
+    margin: auto;
+    text-align: center;
+}
+
 .paragrafoMenu{
     display: inline;
     flex-direction: column;
@@ -52,23 +59,24 @@ nav a{
     font-size: 25px;
 }
 
-div > a{
+nav > a{
     display: none;
 }
 
 
-div:hover > a{
+nav:hover > a{
     display: block;
     color: white;
 }
 
-div:hover{
+nav:hover{
     color: white;
 }
 
 .tituloMain{
     display: flex;
     justify-content: center;
+
     margin-top: 100px;
 
 }
@@ -79,6 +87,7 @@ main a{
 
 #p1, #p2, 
 #p3, #p4{
+    margin: auto;
      display: inline-block;
      margin: 10px 10px 10px 10px;
      background-color: lightgray;
@@ -105,6 +114,10 @@ footer{
 
 .container {
     text-align: center;
-    margin: 0;
+    margin: auto;
     
+}
+
+.atualizacao{
+    margin: 5px;
 }
