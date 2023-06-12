@@ -2,20 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+m:wght@300&family=Rufina&display=swap');
 
-
-
-/*
-Cor 1: #52577E
-Cor 2: #413349
-Cor 3: #413241
-Cor 4: #C9CEBD
-Cor 5: #DBCF96
-*/
-
+:root{
+    --cor01: #5f0000;
+    --cor02: #413244;
+    --cor03: #4C4D71;
+    --cor04: #F2EDDB;
+    --cor05: #014034;
+    --fonte-titulo: 'Antonio Sans', sans-serif;
+    --fonte-subTitulo: 'Open Sans m', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif;
+}
 
 body{
     background: url(../imagens/background.png) center center no-repeat fixed;
     background-size: cover;
+    font-family: var(--fonte-padrao);  
 }
 
 
@@ -23,15 +24,14 @@ header{
     display: flex;
     flex-direction: row;
     color: white;
-    font-family: 'Open Sans m', sans-serif;
     font-weight: 400;
-    font-size: 16px;   
+    font-size: 16px; 
 }
 
 header h1{
     display: inline;
     text-decoration: underline;
-    font-family: 'Antonio Sans', sans-serif;
+    font-family: var(--fonte-titulo);
     
 }
 
@@ -40,29 +40,12 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-size: 25px;
-}
-
-.titulo{
-    margin: auto;
-    text-align: center;
-}
-
-.paragrafoMenu{
-    display: inline;
-    flex-direction: column;
-    justify-content: start;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
     font-size: 25px;
 }
 
 nav > a{
     display: none;
 }
-
 
 nav:hover > a{
     display: block;
@@ -73,35 +56,43 @@ nav:hover{
     color: white;
 }
 
+.titulo{
+    margin: auto;
+    text-align: center;
+}
+
+.menu{
+    font-size: 25px;
+}
+
 .tituloMain{
     display: flex;
     justify-content: center;
-
     margin-top: 100px;
 
 }
 
-main a{
-    color: white;
+.atualizacao{
+    margin: 5px;
 }
 
-#p1, #p2, 
-#p3, #p4{
-    margin: auto;
+.projetos{
+     margin: auto;
      display: inline-block;
-     margin: 10px 10px 10px 10px;
+     margin: 10px;
      background-color: lightgray;
      border: 2px solid black;
      text-align: center;
      height: 200px;
      width: 200px;
-     right: 50px
+     color: black;
 }
 
-footer{
-    background-color: #C9CEBD;
+.projetos:hover, .projetos > a{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
 }
-
 
 .pinguim {
     position: fixed;
@@ -118,6 +109,3 @@ footer{
     
 }
 
-.atualizacao{
-    margin: 5px;
-}
