@@ -106,9 +106,9 @@ main img.tituloMain{
 
 .pinguim {
     position: fixed;
-    bottom: -40px;
-    right: -200px;
-    width: 600px; 
+    bottom: 0px;
+    right: 0px;
+    width: 150px; 
     height: auto; 
     z-index: 9999; 
 }
@@ -116,6 +116,7 @@ main img.tituloMain{
 .container {
     text-align: center;
     margin: auto;
+    
     
 }
 

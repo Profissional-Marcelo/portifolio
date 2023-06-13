@@ -2,10 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+m:wght@300&family=Rufina&display=swap');
 
+:root{
+    --cor01: #920202;
+    --cor02: #413244;
+    --cor03: #4C4D71;
+    --cor04: #F2EDDB;
+    --cor05: #014034;
+    --fonte-titulo: 'Antonio Sans', sans-serif;
+    --fonte-subTitulo: 'Open Sans m', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif;
+}
+
 
 body{
     background: url(../imagens/background.png) center center no-repeat fixed;
     background-size: cover;
+    font-family: var(--fonte-padrao);
 }
 
 main{
@@ -17,8 +29,9 @@ main{
     margin: auto;
 }
 
-h2, p, a{
-    font-family: 'Open Sans', sans-serif;
+h2{
+    font-family: var(--fonte-subTitulo);
+    color: var(--cor05);
 }
 
 
@@ -27,15 +40,11 @@ h1 {
     text-decoration: underline;
     text-align: center;
     text-shadow: 1px 1px 2px rgb(13, 13, 13, 0.726);
-    font-family: 'Antonio Sans', sans-serif;
-}
-
-h2 {
-    color: #014034;
+    font-family: var(--fonte-titulo);
 }
 
 a{
-    color: red;
+    color: var(--cor01);
 }
 
 p{
@@ -51,9 +60,9 @@ p{
 
 .pinguim {
     position: fixed;
-    bottom: -70px;
-    right: -200px;
-    width: 500px; 
+    bottom: 0px;
+    right: 0px;
+    width: 150px; 
     height: auto; 
     z-index: 9999; 
 }

@@ -16,13 +16,27 @@
 body{
     background: url(../imagens/background.png) center center no-repeat fixed;
     background-size: cover;
+    font-family: var(--fonte-padrao)
 }
 
-header{
-    display: inline;
+header h1{
+    color: var(--cor04);
+    font-family: var(--fonte-titulo);
+}
+
+header p{
+    color: white;
+    font-size: 30px;
+}
+
+h1, h2, p{
+    margin: 7px;
 }
 
 
+.cabecalho{
+    display: flex;
+}
 
 .marcelo{
     width: 200px;
@@ -31,9 +45,9 @@ header{
 
 .pinguim {
     position: fixed;
-    bottom: -70px;
-    right: -200px;
-    width: 500px; 
+    bottom: 0px;
+    right: 0px;
+    width: 150px; 
     height: auto; 
     z-index: 9999; 
 }
