@@ -2,10 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+m:wght@300&family=Rufina&display=swap');
 
+:root{
+    --cor01: #920202;
+    --cor02: #413244;
+    --cor03: #4C4D71;
+    --cor04: #F2EDDB;
+    --cor05: #014034;
+    --fonte-titulo: 'Antonio Sans', sans-serif;
+    --fonte-subTitulo: 'Open Sans m', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif;
+}
 
 body{
     background: url(../imagens/background.png) center center no-repeat fixed;
     background-size: cover;
+    font-family: var(--fonte-padrao);
 }
 
 main{
@@ -15,10 +26,8 @@ main{
     width: 70%;
     padding: 100px;
     margin: auto;
-}
-
-h2, p, a{
-    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin: none;
 }
 
 
@@ -27,19 +36,12 @@ h1 {
     text-decoration: underline;
     text-align: center;
     text-shadow: 1px 1px 2px rgb(13, 13, 13, 0.726);
-    font-family: 'Antonio Sans', sans-serif;
+    font-family: var(--fonte-titulo)
 }
 
 h2 {
-    color: #014034;
-}
-
-a{
-    color: red;
-}
-
-p{
-    text-align: justify;
+    color: var(--cor05);
+    font-family: var(--fonte-subTitulo)
 }
 
 .voltar{

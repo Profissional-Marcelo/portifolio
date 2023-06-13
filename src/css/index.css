@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+m:wght@300&family=Rufina&display=swap');
 
 :root{
-    --cor01: #5f0000;
+    --cor01: #920202;
     --cor02: #413244;
     --cor03: #4C4D71;
     --cor04: #F2EDDB;
@@ -56,6 +56,12 @@ nav:hover{
     color: white;
 }
 
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
 .titulo{
     margin: auto;
     text-align: center;
@@ -65,11 +71,15 @@ nav:hover{
     font-size: 25px;
 }
 
-.tituloMain{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+main img.tituloMain{
+    display: block;
+    margin: auto;
 
+}
+
+.espacamento{
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
 .atualizacao{
