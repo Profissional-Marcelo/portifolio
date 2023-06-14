@@ -11,6 +11,7 @@
     --fonte-titulo: 'Antonio Sans', sans-serif;
     --fonte-subTitulo: 'Open Sans m', sans-serif;
     --fonte-padrao: 'Open Sans', sans-serif;
+    --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
 
 
@@ -24,7 +25,7 @@ h1 {
     color: white;
     text-decoration: underline;
     text-align: center;
-    text-shadow: 1px 1px 2px rgb(13, 13, 13, 0.726);
+    text-shadow: var(--sombra);
    font-family: var(--fonte-titulo);
 }
 

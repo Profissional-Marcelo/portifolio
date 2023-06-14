@@ -11,6 +11,7 @@
     --fonte-titulo: 'Antonio Sans', sans-serif;
     --fonte-subTitulo: 'Open Sans m', sans-serif;
     --fonte-padrao: 'Open Sans', sans-serif;
+    --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
 
 body{
@@ -26,7 +27,7 @@ header h1{
 
 header p{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h1, h2, p{
@@ -41,6 +42,7 @@ h1, h2, p{
 .marcelo{
     width: 200px;
     height: 200px;
+    border-radius: 10px;
 }
 
 .pinguim {

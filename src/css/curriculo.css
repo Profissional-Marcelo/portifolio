@@ -11,6 +11,7 @@
     --fonte-titulo: 'Antonio Sans', sans-serif;
     --fonte-subTitulo: 'Open Sans m', sans-serif;
     --fonte-padrao: 'Open Sans', sans-serif;
+    --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
 
 
@@ -23,7 +24,7 @@ body{
 main{
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgb(13, 13, 13, 0.616);
+    box-shadow: var(--sombra);
     width: 70%;
     padding: 100px;
     margin: auto;

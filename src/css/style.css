@@ -11,6 +11,7 @@
     --fonte-titulo: 'Antonio Sans', sans-serif;
     --fonte-subTitulo: 'Open Sans m', sans-serif;
     --fonte-padrao: 'Open Sans', sans-serif;
+    --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
 
 body{
@@ -19,6 +20,20 @@ body{
     font-family: var(--fonte-padrao);  
 }
 
+h1{ 
+    color: white;
+    font-family: var(--fonte-titulo);
+    text-shadow: var(--sombra);
+    margin: auto;
+    text-align: center;
+    display: inline;
+    text-decoration: underline;
+}
+
+h2{
+    color: var(--cor05);
+    font-family: var(--fonte-subTitulo);
+}
 
 header{
     display: flex;
@@ -27,14 +42,6 @@ header{
     font-weight: 400;
     font-size: 16px; 
 }
-
-header h1{
-    display: inline;
-    text-decoration: underline;
-    font-family: var(--fonte-titulo);
-    
-}
-
 
 nav a{
     display: flex;
@@ -62,10 +69,6 @@ main{
     margin: auto;
 }
 
-.titulo{
-    margin: auto;
-    text-align: center;
-}
 
 .menu{
     font-size: 25px;
@@ -77,32 +80,11 @@ main img.tituloMain{
 
 }
 
-.espacamento{
-    margin-top: 100px;
-    margin-right: 100px;
+.titulo {
+    margin: auto;
+    text-align: center;
 }
 
-.atualizacao{
-    margin: 5px;
-}
-
-.projetos{
-     margin: auto;
-     display: inline-block;
-     margin: 10px;
-     background-color: lightgray;
-     border: 2px solid black;
-     text-align: center;
-     height: 200px;
-     width: 200px;
-     color: black;
-}
-
-.projetos:hover, .projetos > a{
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-}
 
 .pinguim {
     position: fixed;
@@ -113,10 +95,4 @@ main img.tituloMain{
     z-index: 9999; 
 }
 
-.container {
-    text-align: center;
-    margin: auto;
-    
-    
-}
 
