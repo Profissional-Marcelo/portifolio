@@ -53,3 +53,7 @@ h1, h2, p{
     height: auto; 
     z-index: 9999; 
 }
+
+.instagram{
+    border-radius: 20px;
+}
