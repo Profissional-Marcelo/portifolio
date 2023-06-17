@@ -100,6 +100,11 @@ main img.tituloMain{
     justify-content: center;
     margin-top: 70px;   
 }
+
+.downloads{
+    color: var(--cor01);
+    margin-left: 50px;
+}
 /* Geral */
 
 /* INDEX */
@@ -136,7 +141,7 @@ main img.tituloMain{
 
 
 /* Exp Profissional */
-#expProfissional{
+.subPaginas{
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(13, 13, 13, 0.616);
@@ -160,7 +165,7 @@ main img.tituloMain{
     margin: 0 40px
   }
 
-  #expProfissional > p{
+  .subPaginas > p{
     margin: 0px;
     font-size: 25px;
     text-align: justify;
@@ -169,3 +174,12 @@ main img.tituloMain{
 }
 
 /* Exp Profissional */
+
+/* Eventos */
+
+/* Eventos */
+
+/* Currículo */
+.downloadCurriculo{
+    color: var(--cor01);
+}
