@@ -19,21 +19,24 @@
 <body>
     <header>
         <nav>
-            <p class="menu">☰ Menu</p>
-            <a class="menu" href="src/html/cursos.html" target="_self" rel="next">Cursos</a>
-            <a class="menu" href="src/html/dados.html" target="_self" rel="next">Contato</a>
-            <a class="menu" href="src/html/eventos.html">Eventos</a>
-            <a class="menu" href="src/html/curriculo.html" target="_self" rel="next">Currículo</a>
-            <a class="menu" href="src/html/expProfissional.html" target="_self" rel="next">Experiências</a>
+            <button type="button" id="botao">☰ Menu</button>
+            
+            <span class="rpmenu" id="resmenu">
+                <a class="menu" href="src/html/cursos.html" target="_self" rel="next">Cursos</a>
+                <a class="menu" href="src/html/dados.html" target="_self" rel="next">Contato</a>
+                <a class="menu" href="src/html/eventos.html">Eventos</a>
+                <a class="menu" href="src/html/curriculo.html" target="_self" rel="next">Currículo</a>
+                <a class="menu" href="src/html/expProfissional.html" target="_self" rel="next">Experiências</a>
+            </span>
         </nav>
         <div class="titulo">
             <h1>Marcelo Henrique Cornelis Rei</h1>
             <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
         </div>
         <div>
-            <p>Versão: 0.2.2 (pré-alfa)</p>
+            <p>Versão: 0.2.3 (pré-alfa)</p>
             <ul>
-                <li class="atualizacao">Última atualização: 17/06/2023</li>
+                <li class="atualizacao">Última atualização: 30/06/2023</li>
             </ul>
         </div>
     </header>
@@ -56,5 +59,18 @@
     </footer>
     <img src="src/imagens/pinguim.png" alt="Logo Pinguim" class="pinguim">
 </body>
+
+<script>
+    let botao = window.document.getElementById('botao');
+    botao.addEventListener('click', clicar)
+
+    function clicar(){
+        let menu = window.document.getElementById('resmenu');
+        menu.style.display = 'block'
+
+    }
+
+
+</script>
 
 </html>

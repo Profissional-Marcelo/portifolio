@@ -43,6 +43,16 @@ header{
     font-size: 16px; 
 }
 
+nav > button{
+    height: 35px;
+    width: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
 nav a{
     display: flex;
     flex-direction: column;
@@ -50,18 +60,11 @@ nav a{
     font-size: 25px;
 }
 
-nav > a{
+.rpmenu{
     display: none;
+    
 }
 
-nav:hover > a{
-    display: block;
-    color: white;
-}
-
-nav:hover{
-    color: white;
-}
 
 main{
     min-width: 300px;
@@ -72,6 +75,8 @@ main{
 
 .menu{
     font-size: 25px;
+    color: white;
+    text-decoration: none;
 }
 
 main img.tituloMain{
